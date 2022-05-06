@@ -1,0 +1,349 @@
+.parent{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(136, 87, 87, 0.2);
+}
+.img0{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+.ul0{
+    list-style: none;
+    float: right;
+}
+.li0{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.a0{
+    color: white;
+    text-decoration: none;
+}
+.a0:hover{
+    color: red;
+}
+/* (header)/////////////////////////////// */
+.home{
+    height: 100vh;
+    background-image:url(../images/1650638474831.jpg) ;
+    background-position: cover;
+    position: relative;
+}
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: rgb(0, 0, 0 ,0.7);
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hh1{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.par1{
+    color: white;
+    font-size: 20px;
+    /* text-transform:  ; */
+    margin: 20px 0px;
+}
+.home-content button{
+    width: 150px;
+    padding: 15px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-content button:hover{
+    opacity: .5;
+}
+.btn1{
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.btn2{
+    background-color: blue;
+    color: white ;
+    border: 1px solid blue;
+}
+/* (home)/////////////////////////////////////////////// */
+.group{
+    width: 77%;
+    height: 100vh;
+    margin: auto;
+    padding-top:100px ;
+ }
+ .container10{
+    text-align: center;
+    padding-top: 50px;
+ }
+.hh10{
+    text-align: center;
+    font-size: 45px;
+}
+.par10{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(7, 11, 255);
+    margin:auto;
+}
+.par11{
+    margin: 15px 0px;
+}
+.div11 {
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+}
+.div11:hover{
+    background-color: grey;
+}
+.div12 {
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    margin: 0px 60px;
+    transition:3s ;
+    padding-top: 40px;
+}
+.div12:hover{
+    background-color: grey;
+}
+.div13 {
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+} 
+.div13:hover{
+    background-color: grey;
+}
+.a11{
+    /* list-style: none; */
+    text-decoration: none;
+}
+.a11:hover{
+    color: red;
+}
+i{
+    color: rgb(54, 54, 110);
+    margin-bottom: 15px;
+}
+/* //////////////////////////////////////////////////////////////// */
+.group2{
+    height: 100vh;
+}
+.hh22{
+    text-align: center;
+    font-size: 45px; 
+}
+.par22{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(7, 11, 255);
+    margin:auto;
+}
+/* //////////////////////// */
+.group3{
+    height: 100vh;
+}
+.hh33{
+    text-align: center;
+    font-size: 40px; 
+}
+.par33{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(7, 11, 255);
+    margin:auto;
+}
+.par31 div{
+    text-align: center;
+    position: relative;
+}
+.par31 div::after{
+    content:"";
+    background-color: rgb(134, 128, 128);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:2s ;
+    -webkit-transition:2s ;
+    -moz-transition:2s ;
+    -ms-transition:2s ;
+    -o-transition:2s ;
+    opacity: .5;
+    width: 0;
+    height: 0;
+}
+.par31 div:hover::after{
+    height: 100%;
+    width: 100%;
+}
+.div33{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+    margin-left:150px;
+    margin-top: 50px; 
+}
+.div34{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+    margin:0px 60px ;
+    margin-top: 50px ;  
+}
+.div35{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+     margin-top:50px ;
+}
+.div36{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+    margin-left:150px ; 
+    margin-top: 20px;
+}
+.div37{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+     margin:20px 60px ;  
+}
+ .div38{
+    width:300px;
+    height:200px;
+    border: 1px solid rgba(41, 39, 35, 0.856);
+    float: left;
+    transition:3s ;
+    padding-top: 40px;
+    margin-top:20px ; 
+    text-align: center;
+}
+/* ////////////////////////////////////////////// */
+.group7{
+    height: 100vh;
+}
+.container70{
+    padding: 120px 0;
+}
+
+.hh70{
+    text-align: center;
+    font-size: 45px; 
+}
+.par70{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(7, 11, 255);
+    margin:auto;
+}
+.div71{
+    width: 300px;
+    border:1px solid grey ;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 150px;
+    float: left;
+    padding: 15px;
+}
+.div72{
+    width: 300px;
+    border:1px solid grey ;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0px 50px;
+    float: left;
+    padding: 15px;
+} 
+.div73{
+    width: 300px;
+    border:1px solid grey ;
+    border-radius: 12px;
+    text-align: center;
+    float: left;
+    padding: 15px;
+}
+.div71:hover{
+    background-color: grey;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.div72:hover{
+    background-color: grey;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.div73:hover{
+    background-color: grey;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+p{
+    color: rgb(192, 173, 150);
+}
+.a7{
+    color: rgb(132, 11, 245);
+    text-decoration: none;
+}
+.price{
+   width: 70px;
+   height: 70px;
+   border: 1px solid blue;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+   margin: auto;
+   font-weight: bolder;
+   font-size: 15px;
+   padding: 20px;
+   text-align: center;
+}
+.priceSpan{
+    font-size: 40px;
+}
+/* (7)///////////////////////////////////////////////////////////// */
